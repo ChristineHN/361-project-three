@@ -12,8 +12,8 @@ html{
       font-family: 'Oswald', sans-serif;
       font-size: 1.125em;
       line-height: 1.222em;
-      text-align: left;
-      background-color: #C0B3B1;
+      text-align: center;
+      background-color: #F7F7F7;
     }
 
 nav {
@@ -29,14 +29,21 @@ h1 {
       font-size: 2.25em;
       font-weight: bold;
     }
+
 h2 {
-      padding: 0.875em 0.875em;
+      padding: 0.625em 0.625em 0.625em 0.625em;
       font-size: 1.5em;
       font-weight: bold;
     }
 
 h3 {
+      padding: 0.625em 0.625em 0.625em 0.625em;
       font-size: 1em;
+    }
+
+h4 {
+      padding: 0.875em 0.875em;
+      font-size: 0.875em;
     }
 
 p {
@@ -44,11 +51,14 @@ p {
     }
 
 ul li {
-      list-style-type: square;
+      list-style-type: disc;
       font-size: 0.875em;
     }
 
 footer {
       padding: 1.125em 0.625em 0.625em 0.3125em;
       margin: 1.125em 0.625em 0.625em 0.3125em;
+      font-size: 0.625em;
+      flex-shrink: 0;  /*keeps footer at the bottom*/
     }
+
