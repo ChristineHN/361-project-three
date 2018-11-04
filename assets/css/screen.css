@@ -50,6 +50,11 @@ p {
       padding: 0.3125em 0.625em 0.3125em 0.625em;
     }
 
+#photo{
+  width:50vw;
+  height: 50vw;
+}
+
 ul li {
       list-style-type: disc;
       font-size: 0.875em;
@@ -59,6 +64,5 @@ footer {
       padding: 1.125em 0.625em 0.625em 0.3125em;
       margin: 1.125em 0.625em 0.625em 0.3125em;
       font-size: 0.625em;
-      flex-shrink: 0;  /*keeps footer at the bottom*/
     }
 
