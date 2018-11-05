@@ -8,46 +8,46 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below! */
 html{
-      padding: 1.125em 0.3125em 1.125em 0.3125em;
-      font-family: 'Oswald', sans-serif;
-      font-size: 1.125em;
-      line-height: 1.222em;
-      text-align: center;
-      background-color: #F7F7F7;
+  padding: 1.125em 0.3125em 1.125em 0.3125em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.125em;
+  line-height: 1.222em;
+  text-align: center;
+  background-color: #F7F7F7;
     }
 
 nav {
-      padding: 1.125em 0.625em 0.625em 0.625em;
-      font-size: 1.125em;
+  padding: 1.125em 0.625em 0.625em 0.625em;
+  font-size: 1.125em;
     }
 
 nav ul li {
-      list-style-type: none;
+  list-style-type: none;
     }
 
 h1 {
-      font-size: 2.25em;
-      font-weight: bold;
+  font-size: 2.25em;
+  font-weight: bold;
     }
 
 h2 {
-      padding: 0.625em 0.625em 0.625em 0.625em;
-      font-size: 1.5em;
-      font-weight: bold;
+  padding: 0.625em 0.625em 0.625em 0.625em;
+  font-size: 1.5em;
+  font-weight: bold;
     }
 
 h3 {
-      padding: 0.625em 0.625em 0.625em 0.625em;
-      font-size: 1em;
+  padding: 0.625em 0.625em 0.625em 0.625em;
+  font-size: 1em;
     }
 
 h4 {
-      padding: 0.875em 0.875em;
-      font-size: 0.875em;
+  padding: 0.875em 0.875em;
+  font-size: 0.875em;
     }
 
 p {
-      padding: 0.3125em 0.625em 0.3125em 0.625em;
+  padding: 0.3125em 0.625em 0.3125em 0.625em;
     }
 
 #photo{
@@ -56,13 +56,13 @@ p {
 }
 
 ul li {
-      list-style-type: disc;
-      font-size: 0.875em;
+  list-style-type: disc;
+  font-size: 0.875em;
     }
 
 footer {
-      padding: 1.125em 0.625em 0.625em 0.3125em;
-      margin: 1.125em 0.625em 0.625em 0.3125em;
-      font-size: 0.625em;
+  padding: 1.125em 0.625em 0.625em 0.3125em;
+  margin: 1.125em 0.625em 0.625em 0.3125em;
+  font-size: 0.625em;
     }
 
