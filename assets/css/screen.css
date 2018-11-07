@@ -7,8 +7,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below! */
+/*============BASESTYLES============*/
 html{
-  padding: 1.125em 0.3125em 1.125em 0.3125em;
+  padding: 1.125em 0.3125em 1.125em 0.3125em;   /*16px = 1em -> 18px / 16px = 1.125em */
   font-family: 'Oswald', sans-serif;
   font-size: 1.125em;
   line-height: 1.222em;
@@ -49,10 +50,6 @@ p {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
     }
 
-#photo{
-  width:50vw;
-  height: 50vw;
-}
 
 ul li {
   list-style-type: disc;
@@ -64,3 +61,11 @@ footer {
   margin: 1.125em 0.625em 0.625em 0.3125em;
   font-size: 0.625em;
     }
+
+/*============MODULAR STYLES============*/
+#photo{
+  width:50vw;
+  height: 50vw;
+}
+
+/*============STATE STYLES============*/
