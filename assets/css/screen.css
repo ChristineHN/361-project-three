@@ -30,9 +30,9 @@ nav {
   font-size: 1.125em;
     }
 
-main{
+main {
   background-color:rgba(255, 255, 255, 0.5);
-  border-radius: 0.5625em /* 1.125em / 2 */
+  border-radius: 0.5625em; /* 1.125em / 2 */
 }
 
 section {
@@ -40,11 +40,23 @@ section {
   margin: 0.3125em 0.3125em 0.3125em 0.3125em;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+container {
+  display:flex;
+  
 }
 
 article {
+  flex-wrap: wrap;
   padding: 0.3125em 0.625em 0.3125em 0.625em;
   margin: 0.3125em 0.3125em 0.3125em 0.3125em;
+}
+article figcaption{
+    font-size: 0.625em;
 
 }
 
@@ -52,19 +64,27 @@ article ul {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
   margin: 0.3125em 0.3125em 0.3125em 0.3125em;
 }
+
+
+
+
+
 /*============MODULAR STYLES============*/
 #cocopic{
-  width:50vw;
+  width: 50vw;
 }
 
-.travelpic{
-  max-width: 50%;
-  flex-direction: row;
+.travelpic img{
+  width: 25vw;
 }
 
-.travelpic2{
-  max-width: 50%;
-  align-self: flex-end;
-}
+
 
 /*============STATE STYLES============*/
+
+/*============MEDIA QUERY=============*/
+@media screen and (max-width: 1120px){
+  container{
+    flex-direction: column;
+  }
+}
