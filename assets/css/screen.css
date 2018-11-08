@@ -13,7 +13,8 @@ html{
   font-family: 'Oswald', sans-serif;
   font-size: 1.125em;
   line-height: 1.222em;
-  background-image: url("./images/background.jpg");
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
     }
 
 nav {
