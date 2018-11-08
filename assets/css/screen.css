@@ -9,64 +9,62 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below! */
 /*============BASESTYLES============*/
 html{
-  padding: 1.125em 0.3125em 1.125em 0.3125em;   /*16px = 1em -> 18px / 16px = 1.125em */
+  padding: 1.222em; /* 22px / 18px = 1.222em */
   font-family: 'Oswald', sans-serif;
-  font-size: 1.125em;
-  line-height: 1.222em;
-  background: #ffffff url("./images/background.jpg") no-repeat right top;
+  font-size: 1.125em; /* 16px = 1em ->18px / 16px = 1.125em */
+  line-height: 1.222em; 
     }
+
+body{
+  margin: 4.5em; /*1.125em * 4 = 4.5 */
+  padding: 0;
+  background: url(../images/background.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 nav {
   padding: 1.125em 0.625em 0.625em 0.625em;
   font-size: 1.125em;
     }
 
-nav ul li {
-  list-style-type: none;
-    }
+main{
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 0.5625em /* 1.125em / 2 */
+}
 
-h1 {
-  font-size: 2.25em;
-  font-weight: bold;
-    }
+section {
+  padding: 0.3125em 0.625em 0.3125em 0.625em;
+  margin: 0.3125em 0.3125em 0.3125em 0.3125em;
+  display: flex;
+  flex-direction: row;
+}
 
-h2 {
-  padding: 0.625em 0.625em 0.625em 0.625em;
-  font-size: 1.5em;
-  font-weight: bold;
-    }
-
-h3 {
-  padding: 0.625em 0.625em 0.625em 0.625em;
-  font-size: 1em;
-    }
-
-h4 {
-  padding: 0.875em 0.875em;
-  font-size: 0.875em;
-    }
-
-p {
+article {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
-    }
+  margin: 0.3125em 0.3125em 0.3125em 0.3125em;
 
+}
 
-ul li {
-  list-style-type: disc;
-  font-size: 0.875em;
-    }
-
-footer {
-  padding: 1.125em 0.625em 0.625em 0.3125em;
-  margin: 1.125em 0.625em 0.625em 0.3125em;
-  font-size: 0.625em;
-    }
-
+article ul {
+  padding: 0.3125em 0.625em 0.3125em 0.625em;
+  margin: 0.3125em 0.3125em 0.3125em 0.3125em;
+}
 /*============MODULAR STYLES============*/
 #cocopic{
   width:50vw;
-  height: 50vw;
 }
 
+.travelpic{
+  max-width: 50%;
+  flex-direction: row;
+}
+
+.travelpic2{
+  max-width: 50%;
+  align-self: flex-end;
+}
 
 /*============STATE STYLES============*/
