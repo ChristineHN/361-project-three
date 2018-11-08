@@ -13,31 +13,60 @@ html{
   font-family: 'Oswald', sans-serif;
   font-size: 1.125em; /* 16px = 1em ->18px / 16px = 1.125em */
   line-height: 1.222em; 
-    }
+  background: url(../images/background.jpg) no-repeat center center; 
+  }
 
 body{
   margin: 4.5em; /*1.125em * 4 = 4.5 */
-  padding: 0;
-  background: url(../images/background.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-nav {
-  padding: 1.125em 0.625em 0.625em 0.625em;
-  font-size: 1.125em;
-    }
-
-main {
+  padding: 3em;
   background-color:rgba(255, 255, 255, 0.5);
   border-radius: 0.5625em; /* 1.125em / 2 */
 }
 
+h1{
+  font-size: 2.25em;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.125em;
+    }
+
+nav ul{
+  background-color: #94888A;
+  width: 100%;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #7A6A72;
+}
+
+/* selected link */
+a:active {
+    color: #7A6A72;
+    text-decoration: italic;
+}
+
+main {
+  
+}
+
 section {
-  padding: 0.3125em 0.625em 0.3125em 0.625em;
-  margin: 0.3125em 0.3125em 0.3125em 0.3125em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -45,7 +74,8 @@ section {
   width: 100%;
 }
 
-container {
+div {
+  padding: 0.3125em 0.625em 0.3125em 0.625em;
   display:flex;
   
 }
@@ -55,36 +85,55 @@ article {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
   margin: 0.3125em 0.3125em 0.3125em 0.3125em;
 }
+
 article figcaption{
-    font-size: 0.625em;
+  font-size: 0.625em;
+  text-align: center;
 
 }
 
 article ul {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
-  margin: 0.3125em 0.3125em 0.3125em 0.3125em;
 }
 
+nav ul{
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end;
+  margin: 0.3125em 1.125em 0.3125em 1.125em;
+}
+
+nav ul li{
+  margin: 0.3125em 1.125em 0.3125em 1.125em;
+}
+
+footer{
+  font-size: 0.625em;
+  text-align: center;
+}
 
 
 
 
 /*============MODULAR STYLES============*/
+.pagetitle{
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+}
+
 #cocopic{
   width: 50vw;
 }
 
-.travelpic img{
+.travel div article figure img{
   width: 25vw;
 }
 
 
-
-/*============STATE STYLES============*/
-
 /*============MEDIA QUERY=============*/
 @media screen and (max-width: 1120px){
-  container{
+  div{
     flex-direction: column;
   }
 }
