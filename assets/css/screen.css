@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*============BASESTYLES============*/
 html{
   padding: 1.222em; /* 22px / 18px = 1.222em */
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.125em; /* 16px = 1em ->18px / 16px = 1.125em */
   line-height: 1.222em; 
   background: url(../images/background.jpg) no-repeat center center; 
@@ -18,17 +18,39 @@ html{
 
 body{
   margin: 4.5em; /*1.125em * 4 = 4.5 */
-  padding: 3em;
+  padding: 1.222em;
+  font-style: 'Roboto';
   background-color:rgba(255, 255, 255, 0.5);
   border-radius: 0.5625em; /* 1.125em / 2 */
 }
 
 h1{
-  font-size: 2.25em;
-  justify-content: center;
+  padding: 0.611em 0 0.611em 1.222em; /*1.222/2 = 0.611em*/
+  font-size: 2.25em; /*1.125 * 2 = 2.25em*/
+  font-style: italic;
+  font-weight: bold;
+  color: #7A6A72;
+}
+
+h2{
+  padding: 0.611em 0 0.611em 1.222em; /*1.222/2 = 0.611em*/
+  margin: 0.611em 0 0.611em 0;
+  font-size: 2.25em; /*1.125 * 2 = 2.25em*/
+  text-align: center;
+  color: #5E5D6A;
+}
+
+p{
+  text-align: center;
+  padding: 0.611em 0.611em 0.611em 0.611em; /*1.222/2 = 0.611em*/
+  margin: 0.611em 0 0.611em 0;
+  max-width: 100%;
+  color: #5E5D6A;
 }
 
 nav {
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: flex-end;
   font-size: 1.125em;
@@ -54,12 +76,14 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: #7A6A72;
+    text-decoration: none;
+
 }
 
 /* selected link */
-a:active {
+a:selected {
     color: #7A6A72;
-    text-decoration: italic;
+    text-decoration: underline #7A6A72;
 }
 
 main {
@@ -85,6 +109,7 @@ article {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
   margin: 0.3125em 0.3125em 0.3125em 0.3125em;
 }
+
 
 article figcaption{
   font-size: 0.625em;
@@ -124,6 +149,9 @@ footer{
 
 #cocopic{
   width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .travel div article figure img{
