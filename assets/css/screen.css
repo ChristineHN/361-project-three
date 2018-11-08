@@ -13,7 +13,7 @@ html{
   font-family: 'Oswald', sans-serif;
   font-size: 1.125em;
   line-height: 1.222em;
-  background-color: #F7F7F7;
+  background-image: url("./images/background.jpg");
     }
 
 nav {
@@ -63,9 +63,10 @@ footer {
     }
 
 /*============MODULAR STYLES============*/
-#photo{
+#cocopic{
   width:50vw;
   height: 50vw;
 }
+
 
 /*============STATE STYLES============*/
