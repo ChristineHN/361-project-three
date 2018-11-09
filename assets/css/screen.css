@@ -34,7 +34,6 @@ h1{
 }
 
 h2{
-  position: center;
   padding-top: 0.611em; /*1.222/2 = 0.611em*/
   margin: 0.611em 0 0.611em 0;
   line-height: 1.222em;
@@ -54,8 +53,7 @@ header ul li{
 h3{
   font-size: 1.493em; /*0.611^2 = 1.493em*/
   font-style: italic;
-  line-height: 1.0185em;
-  padding-top: 0.5093em;
+  padding: 0.5093em 0 0 0;
   color: #4b4653;
   text-decoration: underline;
 }
@@ -162,9 +160,7 @@ footer{
 #education, #skill, #experience, #project, #activity {
   max-width: 100%;
   text-align: center;
-  font-weight: 1.25em;
   line-height: 1.2731em;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -181,7 +177,7 @@ footer{
 }
 
 .listc{
-  max-width: 80%
+  max-width: 100%;
   justify-content: center;
 }
 
@@ -198,7 +194,6 @@ footer{
 
 .title {
   margin: 1em 0 0 0;
-  font-weight: 1.493em;
   font-weight: bold;
 }
 
