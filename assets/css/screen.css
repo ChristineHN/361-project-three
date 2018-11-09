@@ -8,23 +8,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below! */
 /*============BASESTYLES============*/
-html{
-  padding: 0em; /* 22px / 18px = 1.222em */
-  font-family: 'Roboto', sans-serif;
+html {
+  padding: 0;
+  font-family: Roboto, sans-serif;
   font-size: 1.125em; /* 16px = 1em ->18px / 16px = 1.125em */
-  line-height: 1.222em; 
-  background: url(../images/background.jpg) no-repeat; 
-  }
+  line-height: 1.222em;
+  background: url(../images/background.jpg) no-repeat;
+}
 
-body{
-  margin: 0em; /*1.125em * 4 = 4.5 */
-  padding: 0em;
+body {
+  margin: 0; /*1.125em * 4 = 4.5 */
+  padding: 0;
   font-style: normal;
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 0.5625em; /* 1.125em / 2 */
 }
 
-h1{
+h1 {
   padding: 0.611em 0 0.611em 1.222em; /*1.222/2 = 0.611em*/
   font-size: 1.5em;
   font-style: italic;
@@ -33,7 +33,7 @@ h1{
   color: #7A6A72;
 }
 
-h2{
+h2 {
   padding-top: 0.611em; /*1.222/2 = 0.611em*/
   margin: 0.611em 0 0.611em 0;
   line-height: 1.222em;
@@ -42,7 +42,7 @@ h2{
   color: #5E5D6A;
 }
 
-header ul li{
+header ul li {
   margin-bottom: 0.611em; /*1.222/2 = 0.611em*/
   line-height: 1.222em;
   font-size: 1.125em;
@@ -50,7 +50,7 @@ header ul li{
   color: #5E5D6A;
 }
 
-h3{
+h3 {
   font-size: 1.493em; /*0.611^2 = 1.493em*/
   font-style: italic;
   padding: 0.5093em 0 0 0;
@@ -58,7 +58,7 @@ h3{
   text-decoration: underline;
 }
 
-p{
+p {
   text-align: center;
   padding: 0.611em 0.611em 0.611em 0.611em; /*1.222/2 = 0.611em*/
   margin: 0.611em 0 0.611em 0;
@@ -73,16 +73,16 @@ nav {
   font-size: 1.125em;
 }
 
-nav ul{
+nav ul {
   background-color: #94888A;
   width: 100%;
   display: block;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: flex-end;
   margin: 0.3125em 1.125em 0.3125em 1.125em;
 }
 
-nav ul li{
+nav ul li {
   margin: 0.3125em 1.125em 0.3125em 1.125em;
 }
 
@@ -120,7 +120,7 @@ article {
   margin: 0.3125em 0.3125em 0.3125em 0.3125em;
 }
 
-section figcaption{
+section figcaption {
   font-size: 0.625em;
   text-align: center;
 
@@ -130,30 +130,30 @@ article ul {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
 }
 
-footer{
+footer {
   font-size: 0.625em;
   text-align: center;
 }
 
 
 /*============MODULAR STYLES============*/
-.pagetitle{
+.pagetitle {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: flex-start;
 }
 
-.image img{
+.image img {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
-  display:flex; 
+  display: flex;
   width: 25vw;
 }
 
-.resumecontents{
+.resumecontents {
   text-align: center;
 }
 
-#emaillink:link{
+#emaillink:link {
   color: #5E5D6A;
 }
 #education, #skill, #experience, #project, #activity {
@@ -167,7 +167,7 @@ footer{
   width: 100%;
 }
 
-.list{
+.list {
   max-width: 80%;
   display: flex;
   flex-direction: row;
@@ -175,7 +175,7 @@ footer{
   justify-content: center;
 }
 
-.listc{
+.listc {
   max-width: 100%;
   justify-content: center;
 }
@@ -184,7 +184,7 @@ footer{
   margin: 0.3125em 1.222em 0.3125em 0.3125em;
 }
 
-#education h3, #skill h3, #experience h3, #project h3, #activity h3{
+#education h3, #skill h3, #experience h3, #project h3, #activity h3 {
   margin: 1.493em 0.611em 0.3125em 0.611em;
   width: 100%;
   text-align: center;
@@ -216,16 +216,16 @@ footer{
 
 /*============MEDIA QUERY=============*/
 
-@media screen and (min-width: 500px){
-  html{
-    padding : 1.222em;
-    background-color:rgba(255, 255, 255, 0.5);
+@media screen and (min-width: 500px) {
+  html {
+    padding: 1.222em;
+    background-color: rgba(255, 255, 255, 0.5);
   }
-  body{
+  body {
     margin: 4.5em;
-    padding: 1.222em;   
+    padding: 1.222em;
   }
-  h1{
+  h1 {
     padding: 0.611em 0 0.611em 1.222em; /*1.222/2 = 0.611em*/
     font-size: 2.444em; /*1.222 * 2 = 2.444em*/
     font-style: italic;
@@ -234,32 +234,17 @@ footer{
     color: #7A6A72;
   }
 
-  h2{
+  h2 {
     font-size: 1.25em;
   }
   nav ul {
     display: flex;
   }
-  nav ul li{
+  nav ul li {
     font-size: 0.625em;
   }
 }
-/*
-@media screen and (min-width: 520px){
-  html{
-  padding : 0em;
-  background: #958888; 
-  }
-  body{
-    margin: 0em;
-  }
-}
 
-@media screen and (min-width: 550px){
-  nav ul {
-     display: block;
-  }
-} */
 
 
 
