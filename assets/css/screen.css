@@ -222,6 +222,16 @@ footer{
   }
 }
 
+@media screen and (max-width: 520px){
+    html{
+    padding : 0em;
+    background: #958888; 
+  }
+    body{
+      margin: 0em;
+    }
+}
+
 @media screen and (max-width: 425px){
     h1{
       padding: 0 0 0 0;
