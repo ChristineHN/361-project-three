@@ -54,8 +54,8 @@ header ul li{
 h3{
   font-size: 1.493em; /*0.611^2 = 1.493em*/
   font-style: italic;
-¬†¬†line-height: 1.0185em;
-¬†¬†padding-top: 0.5093em;
+Å†Å†line-height: 1.0185em;
+Å†Å†padding-top: 0.5093em;
   color: #4b4653;
   text-decoration: underline;
 }
@@ -172,17 +172,12 @@ footer{
   width: 100%;
 }
 
-.list{
-  max-width: 80%;
+.list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.listc{
-  max-width: 80%
-  justify-content: center;
+  width: 100%;
 }
 
 .list li {
@@ -190,35 +185,27 @@ footer{
 }
 
 #education h3, #skill h3, #experience h3, #project h3, #activity h3{
-  margin: 1.493em 0.611em 0.3125em 0.611em;
+  margin: 1.493em 0.611em 1.493em 0.611em;
   width: 100%;
   text-align: center;
 }
 
-
 .title {
-  margin: 1em 0 0 0;
+  margin: 0;
   font-weight: 1.493em;
   font-weight: bold;
 }
 
 .dates {
-  margin-bottom: 0.3125em;
   font-size: 0.611em;
   font-style: italic;
 }
 
-.degree {
-  margin-bottom: 0.6111em;
-}
-
 
 .work {
-  max-width: 25%;
   margin: 0 0.611em 0 0.611em;
-  justify-content: center;
-
 }
+
 
 /*============MEDIA QUERY=============*/
 @media screen and (max-width: 1120px){
@@ -227,20 +214,14 @@ footer{
   }
 }
 
-@media screen and (max-width: 425px){
-    h1{
-      padding: 0 0 0 0;
-      font-size: 1.5em;
-    }
-    h2{
-      font-size: 1.25em;
-    }
-    nav ul li{
-      font-size: 0.625em;
+@media screen and (max-width: px){
+    #pagetitle{
+    	padding: 0 0 0 0;
+    	font-size: 1.5em;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 270px){
     nav ul {
-       display: block;
+	display: block;
     }
 }

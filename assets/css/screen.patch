@@ -1,0 +1,29 @@
+diff --git a/assets/css/screen.css b/assets/css/screen.css
+index 1fb537a..2809c5a 100644
+--- a/assets/css/screen.css
++++ b/assets/css/screen.css
+@@ -140,7 +140,7 @@ footer{
+ 
+ 
+ /*============MODULAR STYLES============*/
+-.pagetitle{
++#pagetitle{
+   display: flex;
+   flex-direction: row; 
+   justify-content: flex-start;
+@@ -209,4 +209,14 @@ footer{
+   }
+ }
+ 
+-
++@media screen and (max-width: 425px){
++    h1{
++	padding: 0 0 0 0;
++	font-size: 1.5em;
++    }
++}
++@media screen and (max-width: 550px){
++    nav ul {
++	display: block;
++    }
++}
