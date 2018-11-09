@@ -199,14 +199,7 @@ footer{
   justify-content: flex-start;
 }
 
-#dogpic{
-  width: 50vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.travelpic img{
+.travelpic img , .cocophoto img{
   padding: 0.3125em 0.625em 0.3125em 0.625em;
   display:flex; 
   width: 25vw;
