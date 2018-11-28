@@ -143,6 +143,14 @@ footer {
   justify-content: flex-start;
 }
 
+.clock {
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    color: #7A6A72;
+    font-size: 1.125em;
+}
+
 .image img {
   padding: 0.3125em 0.625em 0.3125em 0.625em;
   display: flex;
@@ -244,11 +252,3 @@ footer {
     font-size: 0.625em;
   }
 }
-
-
-
-
-
-
-
-
