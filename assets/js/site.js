@@ -21,11 +21,9 @@
   s = (s < 10) ? "0" + s : s;
 
   var time = h + ":" + m + ":" + s + " " + session;
-  /*should declare var on the top but had to put it here to display 
+  /*should declare var on the top but had to put it here to display
   the clock in a right format*/
   document.getElementById("timeclock").innerText = time;
   document.getElementById("timeclock").textContent = time;
-
   setTimeout(showTime, 1000);
-
 })();
