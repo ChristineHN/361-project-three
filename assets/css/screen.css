@@ -35,11 +35,11 @@ h1 {
 
 h2 {
   padding-top: 0.611em; /*1.222/2 = 0.611em*/
-  margin: 0.611em 0 0.611em 0;
+  /* margin: 0.611em 0 0.611em 0; */
   line-height: 1.222em;
-  font-size: 2.25em; /*1.125 * 2 = 2.25em*/
+  font-size: 2.25em; /*1.125 * 3 = 2.25em*/
   text-align: center;
-  color: #5E5D6A;
+  color: #4B4653;
 }
 
 header ul li {
@@ -242,9 +242,7 @@ footer {
     color: #7A6A72;
   }
 
-  h2 {
-    font-size: 1.25em;
-  }
+
   nav ul {
     display: flex;
   }
