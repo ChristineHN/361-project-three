@@ -6,7 +6,7 @@
   var m = date.getMinutes(); // 0 - 59
   var s = date.getSeconds(); // 0 - 59
   var session = "AM";
-
+  var time;
   if(h === 0){
     h = 12;
   }
@@ -19,10 +19,8 @@
   h = (h < 10) ? "0" + h : h;
   m = (m < 10) ? "0" + m : m;
   s = (s < 10) ? "0" + s : s;
+  time = h + ":" + m + ":" + s + " " + session;
 
-  var time = h + ":" + m + ":" + s + " " + session;
-  /*should declare var on the top but had to put it here to display
-  the clock in a right format*/
   document.getElementById("timeclock").innerText = time;
   document.getElementById("timeclock").textContent = time;
   setTimeout(showTime, 1000);
